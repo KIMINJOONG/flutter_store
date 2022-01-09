@@ -50,7 +50,22 @@ class StorePage extends StatelessWidget {
                     ),
                 ],
               ),
-            )
+            ),
+            Expanded(
+              flex: 1,
+              child: Image.asset(
+                "assets/bag.jpeg", 
+                fit: BoxFit.cover,
+            )),
+            SizedBox(
+              height: 2,
+            ),
+            Expanded(
+              flex: 1,
+              child: Image.asset(
+                "assets/cloth.jpeg", 
+                fit: BoxFit.cover,
+            )),
           ],
         ),
       ) 
